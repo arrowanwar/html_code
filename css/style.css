@@ -69,3 +69,31 @@
       color: var(--secondery-color) !important;
       font-weight: bold;
   }
+  .text-light-gray {
+      color: var(--bs-primary-color);
+  }
+  button, a {
+    font-size: 1.15rem;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
+  }
+  .custom-shape-divider-bottom-1692786895 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1692786895 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1692786895 .shape-fill {
+    fill: #FFFFFF;
+}
